@@ -12,6 +12,14 @@ body {
 }
 
 /* Header Styles */
+.header h1 {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.header h1 .zaidi {
+    color:hotpink
+}
 header {
     background-color: var(--primary-color);
     color: #fff;
@@ -24,11 +32,9 @@ header .name {
     justify-content: flex-start;
     flex-grow: 1;
 }
-
 header nav {
     justify-content: flex-end;
 }
-
 header nav ul {
     list-style-type: none;
     display: flex;
@@ -170,9 +176,33 @@ h1.name {
     }
 }
 
+nav li a {
+    color: #ffffff;
+}
+nav li a:hover {
+    color: #000000;
+}
+
+nav li a:link { text-decoration: none; }
+
+
+nav li a:visited { text-decoration: none; }
+
+
+nav li a:hover { text-decoration: none; }
+
+
+nav li a:active { text-decoration: none; }
+
+.list :hover {
+    background-color: gold;
+}
+.name {
+    text-shadow: 1px 1px 0px;
+}
+
 
 /* Footer */
-
 footer {
     margin-top: 10px;
     padding: 30px 0;
