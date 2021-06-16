@@ -36,11 +36,13 @@ header {
     padding: 15px;
     box-shadow: 2px 2px 19px -5px var(--gray-color-dark);
 }
+.name {
+    text-shadow: 1px 1px 0px;
+}
 
-@media only screen and (min-width: 768px) {
-    header {
-        padding: 20px;
-    }
+section > h1 {
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 header nav {
@@ -55,6 +57,23 @@ header nav ul li {
     margin: 0 10px;
 }
 
+nav li a {
+    color: #ffffff;
+}
+nav li a:hover {
+    color: var(--secondar-color);;
+}
+
+nav li a:link { text-decoration: none; }
+
+
+nav li a:visited { text-decoration: none; }
+
+
+nav li a:hover { text-decoration: none; }
+
+
+nav li a:active { text-decoration: none; }
 
 /* Pitures styles */
 
@@ -94,12 +113,6 @@ header nav ul li {
     margin: auto;
 }
 
-@media only screen and (min-width: 768px) {
-    .about-me {
-        width: 60%;
-    }
-}
-
 /* Portfolios */
 .portfolio {
     display: flex;
@@ -130,11 +143,8 @@ header nav ul li {
     background-color: rgb(249, 235, 159);
 }
 
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .portfolio {
-        width: 90%;
-    }
+.list article:first-child {
+    width: 68%;
 }
 
 /* contact me */
@@ -190,45 +200,7 @@ header nav ul li {
     background-color: var(--button-secondary-color);
 }
 
-@media only screen and (min-width: 768px) {
-    .contact-me input {
-        width: 450px;
-    }
-    .contact-me textarea {
-        width: 450px;
-    }
-}
 
-nav li a {
-    color: #ffffff;
-}
-nav li a:hover {
-    color: var(--secondar-color);;
-}
-
-nav li a:link { text-decoration: none; }
-
-
-nav li a:visited { text-decoration: none; }
-
-
-nav li a:hover { text-decoration: none; }
-
-
-nav li a:active { text-decoration: none; }
-
-
-.name {
-    text-shadow: 1px 1px 0px;
-}
-
-section > h1 {
-    font-style: italic;
-    margin-bottom: 10px;
-}
-.list article:first-child {
-    width: 68%;
-}
 /* Footer */
 footer {
     margin-top: 10px;
@@ -237,4 +209,29 @@ footer {
     height: 100px;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    .about-me {
+        width: 60%;
+    }
+    .contact-me input {
+        width: 450px;
+    }
+    .contact-me textarea {
+        width: 450px;
+    }
+    @media only screen and (max-width: 1024px) {
+        .portfolio {
+            width: 90%;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .list article:first-child {
+        width: 100%;
+    }
 }
