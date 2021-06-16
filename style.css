@@ -9,6 +9,7 @@
     --button-secondary-color: darkgreen;
 }
 
+/* body styles */
 body {
     background-color: var(--base-color);
     font-family: 'Roboto';
@@ -101,7 +102,6 @@ nav li a:active { text-decoration: none; }
     text-align: center;
     margin: 10px 0;
 }
-
 
 /* About me */
 .about-me {
@@ -211,6 +211,7 @@ footer {
     justify-content: center;
 }
 
+/* Media queries styles */
 @media only screen and (min-width: 768px) {
     header {
         padding: 20px;
