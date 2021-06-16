@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-My current portfolio is deployed at https://az84.github.io/Personal_Portfolio/
+My current portfolio is deployed at https://az84.github.io/My-Personal-Portfolio/
 
 ## About me
 
