@@ -4,7 +4,7 @@ My current portfolio is deployed at https://az84.github.io/My-Personal-Portfolio
 
 ## About me
 
-My goal was to create a portfolio that showcases my current coding skillset. I will be updating my portfolio on an ongoing basis as I go through my coding boot camp. Stay tuned for more updates
+My goal was to create a portfolio that showcases my current coding skillset. I will be updating my portfolio on an ongoing basis as I go through my coding boot camp. Stay tuned for more updates.
 
 ## Tools and Technology
 
