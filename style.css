@@ -157,7 +157,6 @@ nav h3 a {
 } 
 nav h3 a {
     color: var(--primary-color);
-    font-weight: bold;
 }
 
 nav h3 a:hover {
