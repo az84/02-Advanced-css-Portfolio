@@ -9,7 +9,7 @@ My goal was to create a portfolio that showcases my current coding skillset. I w
 
 ![image](/Capture 5.PNG)
 
-![image](/assests/Capture 5.PNG)
+![image](/Capture 5.PNG)
 
 ## Tools and Technology
 
