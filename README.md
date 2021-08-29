@@ -6,10 +6,6 @@ My current portfolio is deployed at https://az84.github.io/My-Personal-Portfolio
 
 My goal was to create a portfolio that showcases my current coding skillset. I will be updating my portfolio on an ongoing basis as I go through my coding boot camp. Stay tuned for more updates.
 
-![image](.\assests\Capture4.PNG)
-
-![](.\assests\Capture5.PNG)
-
 ## Tools and Technology
 
 1. In my portfolio i used flexbox, media queries, and CSS variables.
